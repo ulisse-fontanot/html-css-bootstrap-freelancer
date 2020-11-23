@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+.row{
+  height: 100%;
+}
+
+/* HEADER */
+
+/* NAVBAR */
+section.navbar .container-fluid{
+  height: 200px;
+  background-color: rgb(17, 13, 143);
+}
+
+section.navbar .container{
+  height: 100%;
+  background-color: lightblue;
+}
+
+section.navbar #navbar-left, section.navbar #navbar-right{
+  height: 100%;
+  background-color: pink;
+}
+/* NAVBAR */
+
+/* JUMBOTRON */
+section.jumbo .container-fluid{
+  height: 600px;
+  background-color: rgb(65, 172, 98);
+}
+
+section.jumbo .container{
+  height: 100%;
+  background-color: lightgreen;
+}
+/* JUMBOTRON */
+/* HEADER */
+
+/* MAIN */
+/* SEZIONE 1 */
+section.main-1 .container-fluid{
+  background-color: white;
+}
+
+section.main-1 .container{
+  height: 100%;
+  background-color: lightgrey;
+}
+
+section.main-1 .row div:nth-of-type(odd) {
+  background: red;
+  height: 200px;
+  border: 3px solid black;
+}
+
+section.main-1 .row div:nth-of-type(even) {
+  background: blue;
+  height: 200px;
+  border: 3px solid black;
+}
+/* SEZIONE 1 */
+
+/* SEZIONE 2 */
+section.main-2 .container-fluid{
+  height: 400px;
+  background-color: rgb(65, 172, 98);
+}
+
+section.main-2 .container{
+  height: 100%;
+  background-color: lightgreen;
+}
+/* SEZIONE 2 */
+
+/* SEZIONE 3 */
+section.main-3 .container-fluid{
+  height: 300px;
+  background-color: white;
+}
+
+section.main-3 .container{
+  height: 100%;
+  background-color: lightgrey;
+}
+/* SEZIONE 3 */
+/* MAIN */
+
+/* FOOTER */
+footer .container-fluid{
+  height: 300px;
+}
+
+footer #footer-top{
+  background-color: rgb(34, 34, 34);
+}
+
+footer #footer-bottom{
+  background-color: rgb(15, 15, 15);
+}
+/* FOOTER */
