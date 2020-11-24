@@ -103,37 +103,37 @@ section#jumbotron{
   border-radius: 20px;
 }
 
-.sez-1-img div #cabin{
+.sez-1-img #cabin{
   background-image: url('../img/cabin.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.sez-1-img div #cake{
+.sez-1-img #cake{
   background-image: url('../img/cake.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.sez-1-img div #circus{
+.sez-1-img #circus{
   background-image: url('../img/circus.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.sez-1-img div #game{
+.sez-1-img #game{
   background-image: url('../img/game.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.sez-1-img div #safe{
+.sez-1-img #safe{
   background-image: url('../img/safe.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.sez-1-img div #submarine{
+.sez-1-img #submarine{
   background-image: url('../img/submarine.png');
   background-size: cover;
   background-repeat: no-repeat;
