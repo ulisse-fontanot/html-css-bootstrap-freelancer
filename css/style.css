@@ -100,47 +100,37 @@ section#jumbotron{
 
 .sez-1-img div{
   padding: 10px;
+  position: relative;
+}
+
+.sez-1-img img{
+  width: 100%;
   border-radius: 20px;
 }
 
-.sez-1-img #cabin{
-  background-image: url('../img/cabin.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+.sez-1-img div .layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(36, 201, 84, 0.5);
+  border-radius: 20px;
+  opacity: 0%;
 }
 
-.sez-1-img #cake{
-  background-image: url('../img/cake.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+.sez-1-img i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  opacity: 0%;
 }
 
-.sez-1-img #circus{
-  background-image: url('../img/circus.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.sez-1-img #game{
-  background-image: url('../img/game.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.sez-1-img #safe{
-  background-image: url('../img/safe.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.sez-1-img #submarine{
-  background-image: url('../img/submarine.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.sez-1-img div:hover{
-  background-color: rgba(0, 0, 0, 0.50);
+.sez-1-img div:hover, .sez-1-img div:hover i{
+  opacity: 100%;
+  cursor: pointer;
 }
 /* SEZIONE 1 */
 
@@ -169,6 +159,10 @@ section#main-2 .row div{
 .ms_star i{
   font-size: 30px;
   vertical-align: middle;
+}
+
+section#main-2 .row div p{
+  padding: 0 20px;
 }
 
 section#main-2 .btn{
